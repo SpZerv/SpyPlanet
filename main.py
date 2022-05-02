@@ -9,10 +9,6 @@ root.title('SpyPlanet')
 #root.iconbitmap(r'C:\Users\User\Downloads\Πτυχιακή\exe\Planet.ico')
 root.configure(bg='black')
 
-#bg = PhotoImage(file=r"C:\Users\User\Downloads\Πτυχιακή\exe\space1.png")
-#mylabel522 = Label(root,image=bg)
-#mylabel522.place(x=0,y=0,relwidth=1,relheight=1)
-
 
 my_canvas = Canvas(root, width=1580, height=4, bg="black", bd=1, highlightthickness=0, relief=FLAT)
 my_canvas.grid(row=4, column=0, columnspan=72, sticky=EW)
